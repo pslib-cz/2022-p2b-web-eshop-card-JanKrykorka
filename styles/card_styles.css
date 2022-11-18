@@ -7,9 +7,6 @@
 
 }
 
-body{
-    padding: 2em;
-}
 
 .card__label{
     text-align: left;
@@ -42,6 +39,7 @@ body{
 }
 .card{
     padding: 13px;
+    margin: 1em;
     display: block;
     height: 519px;
     width: 350px;
@@ -109,5 +107,10 @@ button{
     font-weight: 600;
     box-shadow: none;
     display: inline-block;
+
+}
+
+.grid{
+    display: flex;
 
 }
