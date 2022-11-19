@@ -88,7 +88,7 @@ footer{
 
 .card__instock::before{
     content: "";
-    background-image: url(/img/check.svg);
+    background-image: url(/img/checkmark.svg);
     width: 16px;
     height: 16px;
     /** content:"";
