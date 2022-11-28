@@ -57,20 +57,27 @@
 }
 
 .card__rating{
+    padding-bottom: 1em;
     color: var(--sick-yellow);
     font-size: 20px; 
 }
 
 .card__name{
-   font-weight: 500px; 
+   font-weight: 500; 
+   padding-bottom: 1em;
 }
-.card__price>p{
-    text-align: right;
+.card__price{
+
+    align-self: flex-end;
+    justify-self: right;
     font-weight: 700;
     font-size: 27px;
     margin: 0;
+    margin-bottom:8px;
 }
 footer{
+    display: flex;
+    justify-content: space-between;
     height: 74px;
 
 }
