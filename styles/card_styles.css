@@ -1,5 +1,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 :root{
@@ -15,7 +17,7 @@
     height: 55px;
 
 }
-.HIT{
+.card__label--hit{
     padding: 4px 16px 4px;
     color: white;
     background-color: var(--sick-yellow);
@@ -28,7 +30,7 @@
     display: inline-flex;
 }
 
-.PETLET{
+.card__label--petlet{
     background-image: url(..//img/5let.png);
     height: 26px;
     width: 83px;
@@ -59,14 +61,6 @@
     font-size: 20px; 
 }
 
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
-}
-
 .card__name{
    font-weight: 500px; 
 }
@@ -81,16 +75,22 @@ footer{
 
 }
 .card__instock{
+    display: flex;
     color: green;
     font-weight: 600;
     font-size: 14px;
 }
 
 .card__instock::before{
-    content: "";
+    display: flex;
+    content:"";
     background-image: url(/img/checkmark.svg);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
     width: 16px;
     height: 16px;
+    padding-left: 6px;
+
     /** content:"";
         background-image:url(svg);
         width
